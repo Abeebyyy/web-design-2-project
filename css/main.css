@@ -1,8 +1,13 @@
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 html {
-    /* content stays responsive */
     box-sizing: border-box;
   }
-  /* adding above property to all the elements by default */
+
   * {
     box-sizing: inherit;
   }
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
