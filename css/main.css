@@ -6,19 +6,31 @@
 
 html {
     box-sizing: border-box;
-  }
+}
 
 * {
   box-sizing: inherit;
 }
 
-header {
+header nav {
   background-color: black;
-  padding-right: 2rem;
-  padding-left: 2rem;
+  padding: 1em 5em 1em 5em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.125rem;
+}
+
+
+nav img {
+  max-width: 5%;
+  max-height: 10%
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  font-size: 1.5em;
 }
