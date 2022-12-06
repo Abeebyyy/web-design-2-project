@@ -53,6 +53,13 @@ header nav {
   align-items: center;
 }
 
+header .nav-d {
+	background-color: #FFB2B2;
+}
+
+header .nav-e {
+	background-color: #C41010;
+}
 
 nav img {
   max-width: 5%;
@@ -70,6 +77,13 @@ nav ul {
 nav ul li a {
   font-style: normal;
   color: white;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
+nav .ul-d li a {
+  font-style: normal;
+  color: black;
   text-decoration: none;
   transition: all .2s ease-in-out;
 }
@@ -106,6 +120,29 @@ a:hover:before {
   visibility: visible;
 }
 
+.ul-d a:after,
+.ul-d a:before {
+  backface-visibility: hidden;
+  border: 1px solid black;
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+  visibility: hidden;
+}
+
+.ul-d a:hover:after,
+.ul-d a:hover:before {
+  backface-visibility: hidden;
+  border-color: black;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+  visibility: visible;
+}
+
 a:hover:before {
   bottom: auto;
   top: 0;
@@ -119,4 +156,68 @@ a:hover:before {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+
+.dis-banner {
+  width: 100%;
+  height: 85vh;
+  background-image: url('../images/banners/tbz_whisper.jpeg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.event-banner {
+  width: 100%;
+  height: 85vh;
+  background-image: url('../images/banners/tbz_bw.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+
+.sangyeon-pic img {
+	height: 55vh;
+}
+
+.jacob-pic img {
+	height: 55vh;
+}
+
+.younghoon-pic img {
+	height: 55vh;
+}
+
+.hyunjae-pic img {
+	height: 55vh;
+}
+
+.juyeon-pic img {
+	height: 55vh;
+}
+
+.kevin-pic img {
+	height: 55vh;
+}
+
+.new-pic img {
+	height: 55vh;
+}
+
+.changmin-pic img {
+	height: 55vh;
+}
+
+.haknyeon-pic img {
+	height: 55vh;
+}
+
+.sunwoo-pic img {
+	height: 55vh;
+}
+
+.eric-pic img {
+	height: 55vh;
 }
