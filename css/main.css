@@ -176,48 +176,40 @@ a:hover:before {
   background-size: cover;
 }
 
-
-
-.sangyeon-pic img {
-	height: 55vh;
+.about div img {
+	width: 100%;
+	border-radius: 20px;
 }
 
-.jacob-pic img {
-	height: 55vh;
+.about {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1em;
+	padding: 5em 8em;
+
 }
 
-.younghoon-pic img {
-	height: 55vh;
+.members-info {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 2em;
+	padding: 7em;
 }
 
-.hyunjae-pic img {
+.members-info div img {
 	height: 55vh;
+	border-radius: 20px;
 }
 
-.juyeon-pic img {
-	height: 55vh;
+h2 {
+	font-size: 3em;
+	padding-bottom: 1.25em;
+	font-weight: bolder;
+	text-transform: uppercase;
 }
 
-.kevin-pic img {
-	height: 55vh;
-}
-
-.new-pic img {
-	height: 55vh;
-}
-
-.changmin-pic img {
-	height: 55vh;
-}
-
-.haknyeon-pic img {
-	height: 55vh;
-}
-
-.sunwoo-pic img {
-	height: 55vh;
-}
-
-.eric-pic img {
-	height: 55vh;
+h4 {
+	font-size: 2em;
+	padding-bottom: 1.25em;
+	font-weight: bold;
 }
