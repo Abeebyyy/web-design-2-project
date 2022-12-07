@@ -344,12 +344,21 @@ footer .footer .row-icons {
 	width: 100%;
 	border-radius: 10px;
 	margin-bottom: 5rem;
+	transition: all 0.5s;
+	scale:1;
 }
 
+.albums div img:hover {
+	transition: all 0.5s;
+  scale:1.05;
+}
 
 ol li {
 	font-size: 1.25rem;
-	border-bottom: 1px solid black;
+	border-bottom: .5px solid black;
 	padding-right: 5rem;
 	width: 15rem;
 }
+
+
+/* EVENT CSS -----------------------------------------------------*/
