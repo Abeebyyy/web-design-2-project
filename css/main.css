@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gill Sans Nova:wght@300;400&display=swap');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -30,7 +30,7 @@ time, mark, audio, video {
 
 html {
   box-sizing: border-box;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Gill Sans Nova', sans-serif;
   font-weight: 300;
   background: url(images/bg.jpg) no-repeat center center fixed;
   background-size: cover;
@@ -157,6 +157,7 @@ a:before {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+	background-color: black;
 }
 
 .dis-banner {
@@ -166,6 +167,7 @@ a:before {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+	background-color: pink;
 }
 
 .event-banner {
@@ -175,6 +177,7 @@ a:before {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+	background-color: black;
 }
 
 .about div img {
@@ -197,12 +200,20 @@ a:before {
 	padding: 7em;
 }
 
+p {
+	font-size: 1.25rem;
+}
+
+.members-info h4 {
+	text-transform: uppercase;
+}
+
 .members-info div img {
 	height: 55vh;
 	border-radius: 20px;
 }
 
-.hero-banner h2 {
+.hero-banner h2, .dis-banner h2, .event-banner h2 {
 	padding-bottom: 1.25em;
 	font-weight: bolder;
 	text-transform: uppercase;
@@ -214,17 +225,35 @@ a:before {
 	font-size: 15rem;
 }
 
+
+
 h2 {
 	font-size: 4em;
 	padding-bottom: .25em;
-	font-weight: bold;
+	font-family: 'Futura', sans-serif;
+	color: #830202;
 }
 
+h3 {
+	font-size: 4em;
+	padding-bottom: .25em;
+	font-family: 'Futura', sans-serif;
+	color: #830202;
+}
+
+.dis h3 {
+	color: #FF007B;
+}
+
+.albums h4 {
+	color: #FF007B;
+}
 
 h4 {
 	font-size: 2em;
 	padding-bottom: 1.25em;
-	font-weight: bold;
+	font-family: 'Futura', sans-serif;
+	color: #830202;
 }
 
 .footer {
@@ -238,14 +267,15 @@ width:100%;
 margin:1% 0%;
 padding:0.6% 0%;
 color: white;
-font-size:1em;
+font-size:1.25em;
 }
 
 .copyright {
-	color: grey;
+	color: white;
 	font-size: .90em;
 	padding-bottom: 2em;
-	padding-top: 1.25em;
+	padding-top: 1.5em;
+	letter-spacing: 1px;
 }
 
 .footer .row-icons {
@@ -288,4 +318,30 @@ footer .footer .row-icons {
 	justify-content: center;
 	font-size: 2.5em;
 	gap: 2em;
+}
+
+/* DISCOGRAPHY CSS -----------------------------------------------------*/
+
+.dis h3, .dis p {
+	display: flex;
+	justify-content: center;
+}
+
+.dis h3 {
+	padding-top: 5rem;
+}
+
+.albums {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 2em;
+	padding: 7em;
+
+}
+
+.albums div img {
+	height: 80%;
+	width: 100%;
+	border-radius: 10px;
+	margin-bottom: 5rem;
 }
