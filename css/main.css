@@ -46,9 +46,9 @@ header {
 }
 
 hr {
-width: 85%;
-border-color:#C41010;
-border-bottom:1px;
+	width: 85%;
+	border-color:#C41010;
+	border-bottom:1px;
 }
 
 header nav {
@@ -357,8 +357,7 @@ footer .footer .row-icons, footer .dis-footer .row-icons, footer .event-footer .
 }
 
 .albums div img {
-	height: 80%;
-	width: 100%;
+	height:40vh;
 	border-radius: 10px;
 	margin-bottom: 5rem;
 	transition: all 0.5s;
@@ -509,25 +508,29 @@ ol li {
 		padding: 3em;
 	}
 
-.members-info p {
-	padding-bottom: 2.5em;
-	margin-top: -2em;
-}
+	.members-info p {
+		padding-bottom: 2.5em;
+		margin-top: -2em;
+	}
 
-.members-info div img {
-	width:100%;
-	height:100%;
-	border-radius: 10px;
-	justify-content: center;
-}
+	.members-info div img {
+		width:100%;
+		height:100%;
+		border-radius: 10px;
+		justify-content: center;
+	}
 
 	nav ul {
 		gap: 1rem;
 		font-size: 1.3em;
 	}
 
-	.hero-banner {
+	.hero-banner, .dis-banner, .event-banner {
 		height: 35vh;
+	}
+
+	.rtk-banner {
+		height: 25vh;
 	}
 
 	p {
@@ -538,6 +541,11 @@ ol li {
 	.hero-banner h2, .dis-banner h2, .event-banner h2 {
 		font-size: 7rem;
 	}
+
+	.rtk-banner h2 {
+		font-size: 5rem;
+	}
+
 
 	h2, h3 {
 		font-size: 2em;
@@ -562,6 +570,63 @@ ol li {
 	.footer .row ul li, .dis-footer .row ul li, .event-footer .row ul li{
 		margin: 0 .5em;
 	}
+
+	.albums {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 2em;
+		padding: 3em;
+
+	}
+
+	.albums div img {
+		height: 30vh;
+	}
+
+	.albums div h4 {
+		margin-bottom: -1em;
+		margin-top: -3em;
+	}
+
+	.albums div ol li:last-child {
+		margin-bottom: 2em;
+	}
+
+	.ab-awards {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 1em;
+		padding: 3em 3em;
+	}
+
+	.awards {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 1rem 1rem;
+		padding: 3em;
+	}
+
+	.awards div h4 {
+		padding-bottom: .5rem;
+		font-size: 1.2rem;
+	}
+
+	.awards div p {
+		padding-bottom: 5rem;
+	}
+
+	.awards .right p {
+		padding-bottom: 0rem;
+	}
+
+	.ab-dis {
+		padding:3em;
+		padding-top: 0em;
+	}
+
+
+
+
 }
 
 
