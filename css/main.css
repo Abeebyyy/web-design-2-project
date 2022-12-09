@@ -45,6 +45,12 @@ header {
 
 }
 
+hr {
+width: 85%;
+border-color:#C41010;
+border-bottom:1px;
+}
+
 header nav {
 	background-color: black;
 	padding: 1em 5em 1em 5em;
@@ -62,9 +68,13 @@ header .nav-e {
 	background-color: #C41010;
 }
 
+
+
 nav img {
 	max-width: 5%;
-	max-height: 10%
+	max-height: 10%;
+	min-width: 5%;
+	min-height: 10%;
 }
 
 nav ul {
@@ -411,10 +421,11 @@ ol li {
 	text-transform: uppercase;
 	text-align: center;
 	position: absolute;
-	transform: translate(20%, 57%);
 	color: white;
 	font-family: 'Mongoose', sans-serif;
 	font-size: 15rem;
+	bottom: -1.5em;
+	left: 5%;
 }
 
 .rtk-banner {
@@ -426,6 +437,7 @@ ol li {
 	background-size: cover;
 	background-color: grey;
 	filter: grayscale(70%);
+	position: relative;
 }
 
 .event-footer {
@@ -472,4 +484,87 @@ ol li {
 .road-to-kingdom div img:hover {
 	transition: all 0.5s;
 	scale:1.05;
+}
+
+
+/* Media queries----------------------------------------------------- */
+
+@media only screen and (max-width: 38em){
+	.about {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 1em;
+		padding: 3em 3em;
+	}
+
+
+	.about div img {
+		border-radius: 10px;
+	}
+
+	.members-info {
+		display: flex;
+		flex-direction: column;
+		gap: 1em;
+		padding: 3em;
+	}
+
+.members-info p {
+	padding-bottom: 2.5em;
+	margin-top: -2em;
+}
+
+.members-info div img {
+	width:100%;
+	height:100%;
+	border-radius: 10px;
+	justify-content: center;
+}
+
+	nav ul {
+		gap: 1rem;
+		font-size: 1.3em;
+	}
+
+	.hero-banner {
+		height: 35vh;
+	}
+
+	p {
+		font-size: 1.10rem;
+	}
+
+
+	.hero-banner h2, .dis-banner h2, .event-banner h2 {
+		font-size: 7rem;
+	}
+
+	h2, h3 {
+		font-size: 2em;
+	}
+
+
+	footer .footer .row-icons, footer .dis-footer .row-icons, footer .event-footer .row-icons {
+
+		font-size: 2em;
+		gap: 1.25em;
+	}
+
+
+	.copyright {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
+	.footer .row, .dis-footer .row, .event-footer .row {
+		font-size:1em;
+	}
+	.footer .row ul li, .dis-footer .row ul li, .event-footer .row ul li{
+		margin: 0 .5em;
+	}
+}
+
+
+@media only screen and (max-width: 60em){
+
 }
