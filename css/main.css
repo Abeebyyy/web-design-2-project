@@ -21,9 +21,6 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-
-
-
 *, *::before, *::after {
 	box-sizing: inherit;
 }
@@ -649,9 +646,7 @@ ol li {
 	.ab-rtk {
 		padding: 2em;
 	}
-
 }
-
 
 @media only screen and (min-width: 38em){
 
@@ -852,8 +847,6 @@ ol li {
 		background-color: #C41010;
 	}
 
-
-
 	nav img {
 		max-width: 5%;
 		max-height: 10%;
@@ -1014,7 +1007,6 @@ ol li {
 		position: relative;
 	}
 
-
 	.hero-banner h2, .dis-banner h2, .event-banner h2 {
 		padding-bottom: 1.25em;
 		font-weight: bolder;
@@ -1027,8 +1019,6 @@ ol li {
 		font-family: 'Mongoose', sans-serif;
 		font-size: 15rem;
 	}
-
-
 
 	h2 {
 		font-size: 4em;
@@ -1281,5 +1271,4 @@ ol li {
 		padding-right: 7em;
 		padding-bottom: 0em;
 	}
-
 }
