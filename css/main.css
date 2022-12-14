@@ -1249,9 +1249,8 @@ ol li {
 		grid-template-columns: 1fr 1fr;
 		gap: 1rem 2em;
 		padding: 7em;
+		margin-top:0em;
 	}
-
-
 
 	.road-to-kingdom div img {
 		border-radius: 10px;
